@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-LIST_OF_APPS="git docker.io openjdk-11-jre"
+LIST_OF_APPS="git docker.io openjdk-11-jre awscli"
 
 echo "$LIST_OF_APPS"
 
