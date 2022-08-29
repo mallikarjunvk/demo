@@ -9,7 +9,7 @@ sudo apt-get update
 sudo apt-get install -y $LIST_OF_APPS
 
 echo curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
-unzip `awscli-bundle.zip -y`
+unzip awscli-bundle.zip
 sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 
 echo "The git version is" `git --version`
